@@ -1,6 +1,6 @@
 # Vesnea's Obsidian Theme
 ## Description
-It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Vesnea theme colors [Seavalanche Website](https://seavalanche.github.io/projectseaweb/).
+It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project Sea Web theme colors [Seavalanche Website](https://seavalanche.github.io/projectseaweb/).
 
 ## Disclaimer
 While mainly made for personal use, I want to share it publicly so others can also enjoy the vibe of taking notes with my theme colors.
