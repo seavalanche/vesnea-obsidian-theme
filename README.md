@@ -8,4 +8,4 @@ Screenshots will be updated later.
 
 ## Usage
 You can freely use it, modify it, anything.
-You can also inform me if something is broken, otherwise I won't update it unless I feel compelled to.
+You can also inform me if something is broken, otherwise I won't update it unless if I feel compelled to.
