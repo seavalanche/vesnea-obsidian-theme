@@ -3,6 +3,9 @@
 
 /* While mainly made for personal use, I want to share it publicly so others can also enjoy the vibe of taking notes with my theme colors. */
 
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
 	--radius-s: 4px;
 	--radius-m: 6px;
@@ -161,3 +164,4 @@ svg * {
 	--modal-border-color: transparent;
 	--text-highlight-bg: hsl(330, 100%, 87%);
 }
+
