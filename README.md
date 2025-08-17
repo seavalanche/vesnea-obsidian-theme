@@ -12,8 +12,8 @@ While mainly made for personal use, I want to share it publicly so others can al
 ## Screenshots
 <img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2001.png" />
 <img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2002.png" />
-<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Dark%2003.png" />
-<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Light%2003.png" />
+<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2003.png" />
+<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2004.png" />
 
 ## Font used
 **Main font**: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) (included)
