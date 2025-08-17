@@ -1,4 +1,4 @@
-# Vesnea's Obsidian Theme
+# Vesnea Vibe (Obsidian.md theme)
 ## Description
 It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project Sea Web theme colors [Seavalanche Website](https://seavalanche.github.io/projectseaweb/).
 
