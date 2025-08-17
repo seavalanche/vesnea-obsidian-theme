@@ -7,161 +7,160 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-	--radius-s: 4px;
-	--radius-m: 6px;
-	--radius-l: 8px;
-	--input-radius: 4px;
-	--tab-radius-active: 4px;
-	--checkbox-radius: 4px;
-	--toggle-radius: 6px;
-	--toggle-thumb-radius: 4px;
-	--slider-thumb-radius: 4px;
-	--font-interface-theme: Work Sans;
-	--font-text-theme: Josefin Sans;
-	--accent-h: 333;
-	--accent-s: 77%;
-	--accent-l: 78%;
-	--text-on-accent: #2c233d;
-	--italic-color: #70bb74;
-	--bold-color: rgb(165, 78, 104);
-	--bold-modifier: 300;
-	--table-header-background: color-mix(
-		in srgb,
-		var(--color-accent) 20%,
-		transparent
-	);
-	--table-header-background-hover: color-mix(
-		in srgb,
-		var(--color-accent) 60%,
-		transparent
-	);
+  --radius-s: 4px;
+  --radius-m: 6px;
+  --radius-l: 8px;
+  --input-radius: 4px;
+  --tab-radius-active: 4px;
+  --checkbox-radius: 4px;
+  --toggle-radius: 6px;
+  --toggle-thumb-radius: 4px;
+  --slider-thumb-radius: 4px;
+  --font-interface-theme: Work Sans, sans-serif;
+  --font-text-theme: Josefin Sans, sans-serif;
+  --accent-h: 333;
+  --accent-s: 77%;
+  --accent-l: 78%;
+  --text-on-accent: #2c233d;
+  --italic-color: #70bb74;
+  --bold-color: rgb(165, 78, 104);
+  --bold-modifier: 300;
+  --table-header-background: color-mix(
+    in srgb,
+    var(--color-accent) 20%,
+    transparent
+  );
+  --table-header-background-hover: color-mix(
+    in srgb,
+    var(--color-accent) 60%,
+    transparent
+  );
 }
 .cm-strikethrough,
-.cm-embed-block.cm-callout del {
-	text-decoration-color: hsl(330, 81%, 65%);
-	color: color-mix(in srgb, var(--text-muted) 60%, transparent);
+.cm-embed-block.cm-callout del,
+*:not(font)>del  {
+  text-decoration-color: hsl(330, 81%, 65%);
+  color: color-mix(in srgb, var(--text-muted) 60%, transparent);
 }
-.cm-highlight {
-	border-radius: 4px;
-	padding: 4px;
-	background-color: inherit;
-	transition: all 0.1s ease;
+.cm-highlight,
+*:not(font)>mark {
+  border-radius: 4px;
+  padding: 4px;
+  background-color: inherit;
+  transition: all 0.1s ease;
 }
 .cm-comment.cm-highlight {
-	padding-left: 12px;
-	padding-right: 12px;
-	--text-highlight-bg: hsl(330, 81%, 65%);
-	--text-normal: hsl(0, 50%, 99%);
-	transition: all 0.1s ease;
+  padding-left: 12px;
+  padding-right: 12px;
+  --text-highlight-bg: hsl(330, 81%, 65%);
+  --text-normal: hsl(0, 50%, 99%);
+  transition: all 0.1s ease;
 }
 .theme-dark .cm-em.cm-highlight {
-	--text-highlight-bg: hsl(123, 42%, 30%);
+  --text-highlight-bg: hsl(123, 42%, 30%);
 }
 .theme-light .cm-em.cm-highlight {
-	--text-highlight-bg: hsl(124, 47%, 79%);
+  --text-highlight-bg: hsl(124, 47%, 79%);
 }
 .cm-active .cm-highlight {
-	margin: 2px;
+  margin: 2px;
 }
-.theme-dark .cm-em.cm-strong {
-	--italic-color: hsl(159, 55%, 75%);
+.theme-dark .cm-em.cm-strong,
+.theme-dark *:not(font)>strong>em {
+  --italic-color: hsl(159, 55%, 75%);
 }
-.theme-light .cm-em.cm-strong {
-	--italic-color: hsl(159, 55%, 45%);
+.theme-light .cm-em.cm-strong,
+.theme-light *:not(font)>strong>em {
+  --italic-color: hsl(159, 55%, 45%);
 }
 
 .workspace-tab-header.is-active::before,
 .workspace-tab-header.is-active::after {
-	display: none;
+  display: none;
 }
 
 svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  rx: 0;
+  ry: 0;
 }
 
 .menu {
-	padding: var(--size-2-1);
+  padding: var(--size-2-1);
 }
 
 .menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
+  padding: var(--size-4-1) var(--size-4-2);
 }
 
 .menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+  margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
 
 .theme-dark {
-	--background-primary: hsl(262, 28%, 19%);
-	--background-secondary: hsl(250, 21%, 11%);
-	--color-base-00: hsl(251, 20%, 11%);
-	--color-base-05: hsl(251, 20%, 13%);
-	--color-base-10: hsl(251, 20%, 15%);
-	--color-base-20: hsl(251, 20%, 17%);
-	--color-base-25: hsl(255, 27%, 14%);
-	--color-base-30: hsl(251, 25%, 15%);
-	--color-base-35: hsl(251, 23%, 13%);
-	--color-base-40: hsl(344, 50%, 70%);
-	--color-base-50: hsl(265, 27%, 45%);
-	--color-base-60: hsl(344, 50%, 70%);
-	--color-base-70: hsl(344, 93%, 88%);
-	--color-base-100: hsl(330, 41%, 95%);
-	--input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
-		0 4px 6px color-mix(in srgb, var(--color-accent) 50%, transparent);
-	--caret-color: hsl(344, 93%, 88%);
-	--shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
-		0px 3.4px 6.7px rgba(0, 0, 0, 0.042),
-		0px 0px 60px color-mix(in srgb, var(--color-accent) 50%, transparent);
-	--shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
-		0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
-		0px 30px 90px color-mix(in srgb, var(--color-accent) 50%, transparent);
-	--modal-border-color: color-mix(
-		in srgb,
-		var(--color-accent) 20%,
-		transparent
-	);
-	--table-border-color: color-mix(
-		in srgb,
-		var(--color-accent) 40%,
-		transparent
-	);
-	--list-marker-color: color-mix(
-		in srgb,
-		var(--color-accent) 90%,
-		transparent
-	);
-	--text-highlight-bg: hsl(330, 54%, 37%);
+  --background-primary: hsl(262, 28%, 19%);
+  --background-secondary: hsl(250, 21%, 11%);
+  --color-base-00: hsl(251, 20%, 11%);
+  --color-base-05: hsl(251, 20%, 13%);
+  --color-base-10: hsl(251, 20%, 15%);
+  --color-base-20: hsl(251, 20%, 17%);
+  --color-base-25: hsl(255, 27%, 14%);
+  --color-base-30: hsl(251, 25%, 15%);
+  --color-base-35: hsl(251, 23%, 13%);
+  --color-base-40: hsl(344, 50%, 70%);
+  --color-base-50: hsl(265, 27%, 45%);
+  --color-base-60: hsl(344, 50%, 70%);
+  --color-base-70: hsl(344, 93%, 88%);
+  --color-base-100: hsl(330, 41%, 95%);
+  --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
+    0 4px 6px color-mix(in srgb, var(--color-accent) 50%, transparent);
+  --caret-color: hsl(344, 93%, 88%);
+  --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
+    0px 3.4px 6.7px rgba(0, 0, 0, 0.042),
+    0px 0px 60px color-mix(in srgb, var(--color-accent) 50%, transparent);
+  --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
+    0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 30px 90px color-mix(in srgb, var(--color-accent) 50%, transparent);
+  --modal-border-color: color-mix(
+    in srgb,
+    var(--color-accent) 20%,
+    transparent
+  );
+  --table-border-color: color-mix(
+    in srgb,
+    var(--color-accent) 40%,
+    transparent
+  );
+  --list-marker-color: color-mix(in srgb, var(--color-accent) 90%, transparent);
+  --text-highlight-bg: hsl(330, 54%, 37%);
 }
 
 .theme-light {
-	--background-primary: hsl(0, 50%, 99%);
-	--background-secondary: hsl(251, 41%, 95%);
-	--color-base-00: hsl(0, 50%, 99%);
-	--color-base-05: hsl(280, 23%, 97%);
-	--color-base-10: hsl(281, 24%, 95%);
-	--color-base-20: hsl(281, 24%, 85%);
-	--color-base-25: hsl(281, 24%, 80%);
-	--color-base-30: hsl(281, 24%, 75%);
-	--color-base-35: hsl(281, 24%, 70%);
-	--color-base-40: hsl(281, 24%, 60%);
-	--color-base-50: hsl(275, 24%, 55%);
-	--color-base-60: hsl(265, 27%, 55%);
-	--color-base-70: hsl(251, 29%, 55%);
-	--color-base-100: hsl(248, 31%, 20%);
-	--input-shadow-hover: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
-		0 1px 1.5px 0 rgba(0, 0, 0, 0.03), 0 0 0 0 transparent,
-		0 4px 6px color-mix(in srgb, #c5b0cf 50%, transparent);
-	--caret-color: hsl(265, 27%, 45%);
-	--shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
-		0px 3.4px 6.7px rgba(0, 0, 0, 0.042),
-		0px 30px 90px color-mix(in srgb, #c5b0cf 50%, transparent);
-	--shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
-		0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
-		0px 30px 90px color-mix(in srgb, #c5b0cf 50%, transparent);
-	--modal-border-color: transparent;
-	--text-highlight-bg: hsl(330, 100%, 87%);
+  --background-primary: hsl(0, 50%, 99%);
+  --background-secondary: hsl(251, 41%, 95%);
+  --color-base-00: hsl(0, 50%, 99%);
+  --color-base-05: hsl(280, 23%, 97%);
+  --color-base-10: hsl(281, 24%, 95%);
+  --color-base-20: hsl(281, 24%, 85%);
+  --color-base-25: hsl(281, 24%, 80%);
+  --color-base-30: hsl(281, 24%, 75%);
+  --color-base-35: hsl(281, 24%, 70%);
+  --color-base-40: hsl(281, 24%, 60%);
+  --color-base-50: hsl(275, 24%, 55%);
+  --color-base-60: hsl(265, 27%, 55%);
+  --color-base-70: hsl(251, 29%, 55%);
+  --color-base-100: hsl(248, 31%, 20%);
+  --input-shadow-hover: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
+    0 1px 1.5px 0 rgba(0, 0, 0, 0.03), 0 0 0 0 transparent,
+    0 4px 6px color-mix(in srgb, #c5b0cf 50%, transparent);
+  --caret-color: hsl(265, 27%, 45%);
+  --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
+    0px 3.4px 6.7px rgba(0, 0, 0, 0.042),
+    0px 30px 90px color-mix(in srgb, #c5b0cf 50%, transparent);
+  --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
+    0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 30px 90px color-mix(in srgb, #c5b0cf 50%, transparent);
+  --modal-border-color: transparent;
+  --text-highlight-bg: hsl(330, 100%, 87%);
 }
-
