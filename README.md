@@ -2,12 +2,11 @@
 ## Description
 It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project Sea Web theme colors [Seavalanche Website](https://seavalanche.github.io/projectseaweb/).
 
-## Usage
-You can freely use it, modify it, anything.
-You can also inform me if something is broken, otherwise I won't update it unless if I feel compelled to.
-
-## Disclaimer
-While mainly made for personal use, I want to share it publicly so others can also enjoy the vibe of taking notes with my theme colors.
+## Features
+- Color palette following Seavalanche's Project Sea Web theme colors
+- Accessibility isn't a second thought, texts will still readable
+- Simple and light, doesn't change much from the default Obsidian theme
+- Some formatting perks, like italic text will be colored green so it popped up
 
 ## Screenshots
 <img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2001.png" />
@@ -23,3 +22,10 @@ While mainly made for personal use, I want to share it publicly so others can al
 **Monotype font**: default Obsidian (ui-monospace, SFMono-Regular, "Cascadia Mono", "Roboto Mono", "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Consolas", "Source Code Pro")
 
 **Math font**: default Obsidian (MJXZERO)
+
+## Usage
+You can freely use it, modify it, anything.
+You can also inform me if something is broken, otherwise I won't update it unless if I feel compelled to.
+
+## Disclaimer
+While mainly made for personal use, I want to share it publicly so others can also enjoy the vibe of taking notes with my theme colors.
