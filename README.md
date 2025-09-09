@@ -29,3 +29,10 @@ You can also inform me if something is broken, otherwise I won't update it unles
 
 ## Disclaimer
 While mainly made for personal use, I want to share it publicly so others can also enjoy the vibe of taking notes with my theme colors.
+
+## Notes on Character References
+
+Some color names in this theme are inspired by my original characters.  
+These references are **for naming purposes only** and do not grant any rights to the characters, their designs, or related works.  
+
+The MIT license applies **only to the theme code** provided in this repository.
