@@ -9,10 +9,11 @@ It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project
 - Some formatting perks, like italic text will be colored green so it popped up
 
 ## Screenshots
-<img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2001.png" />
-<img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2002.png" />
-<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2003.png" />
-<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Showcase%2004.png" />
+<img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_01.png" />
+<img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_02.png" />
+<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03a.png" />
+<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03b.png" />
+<img alt="Showcase 05" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_04.png" />
 
 ## Font used
 **Main font**: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) (included)
