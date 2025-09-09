@@ -10,10 +10,11 @@ It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project
 
 ## Screenshots
 <img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_01.png" />
-<img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_02.png" />
-<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03a.png" />
-<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03b.png" />
-<img alt="Showcase 05" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_04.png" />
+<img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_02a.png" />
+<img alt="Showcase 03" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_02b.png" />
+<img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03a.png" />
+<img alt="Showcase 05" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03b.png" />
+<img alt="Showcase 06" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_04.png" />
 
 ## Font used
 **Main font**: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) (included)
