@@ -20,7 +20,9 @@ It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project
 <img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03a.png" />
 <img alt="Showcase 05" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03b.png" />
 <img alt="Showcase 06" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_04.png" />
+
 #### Below are for version 1.2.0 and above
+
 <img alt="Showcase 07" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_05a.png" />
 <img alt="Showcase 08" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_05b.png" />
 
