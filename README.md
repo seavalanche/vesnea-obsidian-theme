@@ -8,6 +8,11 @@ It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project
 - Simple and light, doesn't change much from the default Obsidian theme
 - Some formatting perks, like italic text will be colored green so it popped up
 
+### v1.2.0+: 
+- File tree now shows a nicely divided display depends on what is active or in focus
+- Clearer display for properties metadata and workplace tab buttons
+- Display the heading formatting even in edit mode
+
 ## Screenshots
 <img alt="Showcase 01" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_01.png" />
 <img alt="Showcase 02" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_02a.png" />
@@ -15,6 +20,10 @@ It's a theme for [Obsidian](https://obsidian.md/) based on Seavalanche's Project
 <img alt="Showcase 04" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03a.png" />
 <img alt="Showcase 05" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_03b.png" />
 <img alt="Showcase 06" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_04.png" />
+#### Below are for version 1.2.0 and above
+<img alt="Showcase 07" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_05a.png" />
+<img alt="Showcase 08" src="https://github.com/seavalanche/vesnea-obsidian-theme/blob/main/screenshots/Pub_05b.png" />
+
 
 ## Font used
 **Main font**: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) (included)
